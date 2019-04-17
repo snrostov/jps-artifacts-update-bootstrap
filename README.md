@@ -3,7 +3,7 @@ Tool for updating idea artifacts configuration for Kotlin JPS build.
 1. Update bootstrap in `build.gradle.kts`
 2. Open or sync project in IDEA with jpsBuild enabled https://jetbrains.quip.com/ynohAbVMwQWT/Building-Kotlin-via-JPS
 3. Close IDEA (or don't get it focus even on commit since changed project files may be overridden by idea)
-4. Download tool from https://github.com/snrostov/jps-artifacts-update-bootstrap/releases
+4. Download tool from https://github.com/snrostov/jps-artifacts-update-bootstrap/releases/download/1.0/jps-artifacts-update-bootstrap-1.0-SNAPSHOT.zip
 5. Run `jps-artifacts-update-bootstrap /path/to/your/kotlin-project-checkout`
 6. Commit changed files
 7. Run tool again to check everything is up to date
